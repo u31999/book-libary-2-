@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Book Libary</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!--the header-->
-        <div id="header">
-            <div class="search-input">
-                <input id="search" name="search-bar" placeholder="search your libary">
-            </div>
-            <div class="logo">
-                <img src="res/f7fe597291194107acb32f94e8d0082a.png" alt="logo">
-            </div>
-            <div class="header-btn">
-                <button class="sign-in">Sign in</button>
-                <button class="sign-up">Sign up</button>
-            </div>
+
+<head>
+    <title>Book Libary</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href="./mediaQueris.css">
+</head>
+
+<body>
+    <!--the header-->
+    <div id="header">
+        <div class="search-input">
+            <input id="search" name="search-bar" placeholder="search your libary">
         </div>
-        
-        <div class="card-container">
-            <div class="add-card card"><h1>+</h1></div>
+        <div class="logo">
+            <img src="res/f7fe597291194107acb32f94e8d0082a.png" alt="logo">
         </div>
-        <div id="add-book-form">
-            <h1>Add New Book</h1> 
-            <div>
-                <label for="name">Book Name:</label>
-                <input type="text" name="name" id="name" placeholder="Enter the book name">
-            </div>
-            <div>
-                <label for="author">Book Author:</label>
-                <input type="text" name="author" id="author" placeholder="Enter the book author">
-            </div>
-            <div>
-                <label for="pages">Book pages:</label>
-                <input type="number" name="pages" id="pages">
-            </div>
-            <div>
-                <label for="reading-status">You are in page Number:</label>
-                <input type="number" name="reading-status" id="reading-status">
-            </div>
-            <div class="form-buttons">
-                <button class="add-to-form">Add</button>
-                <button class="cancel-to-form">Cancel</button>
-            </div>
+
+    </div>
+
+    <div class="card-container">
+        <div class="add-card card">
+            <h1>+</h1>
         </div>
-        <script src="js/main.js"></script>
-    </body>
-    <footer>
-        <h3>by <em>Ahmed Hassan</em></h3>
-    </footer>
+    </div>
+    <div id="add-book-form">
+        <h1>Add New Book</h1>
+        <div>
+            <label for="name">Book Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter the book name">
+        </div>
+        <div>
+            <label for="author">Book Author:</label>
+            <input type="text" name="author" id="author" placeholder="Enter the book author">
+        </div>
+        <div>
+            <label for="pages">Book pages:</label>
+            <input type="number" name="pages" id="pages">
+        </div>
+        <div>
+            <label for="reading-status">You are in page Number:</label>
+            <input type="number" name="reading-status" id="reading-status">
+        </div>
+        <div class="form-buttons">
+            <button class="add-to-form">Add</button>
+            <button class="cancel-to-form">Cancel</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+<footer>
+    <h3>by <em>Ahmed Hassan</em></h3>
+</footer>
 
 </html>

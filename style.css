@@ -13,50 +13,25 @@ body{
 /*header style*/
 #header{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column-reverse;
     align-items: center;
     width: 85%;
     margin: auto;
     border-bottom: 2px solid brown;
 }
 
-
-#header .header-btn button{
-    padding: 10px 25px;
-    font-weight: bolder;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 10px;
+#header .logo img {
+    width: 150px;
+    height: 150px;
 }
 
-.header-btn button:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-    transition: ease-out 0.4s;
+#header .search-input {
+    margin-bottom: 10px;
 }
-
-#header .header-btn .sign-up{
-    margin-left: 40px;
-    background-color: brown;
-    color: yellow;
-    z-index: 1;
-}
-
-.sign-in{
-    background-color: rgba(255, 255, 0, 0.4);
-    color: brown;
-}
-
-.search-input{
-    margin-top: 25px;
-    
-}
-
 #search{
     text-indent: 5%;
-    width: 250px;
-    height: 30px;
+    width: 350px;
+    height: 35px;
     border: 1px solid brown;
     border-radius: 5px;
     font-size: 15px;
@@ -272,77 +247,4 @@ footer{
     height: 60px;
     margin: auto;
 
-}
-/*meadia querie*/
-@media only screen and (max-width: 640px){
-    #header{
-        flex-direction: column-reverse;
-    }
-    .header-btn{
-        display: flex;
-        margin-top: 15px;
-    }
-    #header .header-btn button{
-        padding: 5px 10px;
-    }
-    .logo{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .logo img {
-        width: 100%;
-        height: 100%;
-    }
-    .search-input{
-        margin-top: 0px;
-        margin-bottom: 20px;
-    }
-    .card-container{
-        grid-gap: 0px;
-        width: 100%;
-        grid-template-columns: auto auto !important;
-        overflow-y: auto;
-    }
-    .card{
-        margin: 10px;
-    }
-    .book-form{
-        width: 100%;
-        height: 100%;
-    }
-    #add-book-form > h1{
-        font-size: 40px;
-        margin-top: 50px;
-    }
-    #add-book-form > div{
-        flex-direction: column;
-        gap: 0px;
-    }
-    #add-book-form .form-buttons{
-        flex-direction: row;
-        gap: 50px;
-        margin-bottom: 50px;
-    }
-    .form-buttons button{
-        padding: 10px 15px;
-    }
-    .show-form{
-        width: 100%;
-        height: 100%;
-    }
-    .show-form input{
-        width: 300px !important;
-        font-size: 25px !important;
-    }
-    .show-form-button{
-        gap: 30px !important;;
-    }
-    .show-form-button button{
-        padding: 10px 15px !important;
-    }
-    .search-found-card{
-        grid-template-columns: auto auto !important;
-        overflow-y: auto;
-    }
 }

@@ -1,0 +1,60 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+        overflow-x: none;
+    }
+    #search {
+        width: 220px;
+    }
+    .card-container div:first-child {
+        width: 100px;
+        height: 100px;
+        font-size: 60px;
+    }
+
+    .card-container div {
+        width: 100px;
+        height: 100px;
+        font-size: 9px;
+    }
+    .card-container div button {
+        font-size: 9px;
+        padding: 5px 10px;
+    }
+    .book-form {
+        width: 90%;
+        height: 90%;
+    }
+    #add-book-form {
+        justify-content: space-between;
+    }
+    #add-book-form h1 {
+        margin-left: 20px;
+    }
+    #add-book-form h1, #add-book-form div {
+        font-size: 18px;
+    }
+    #add-book-form input {
+        width: 250px !important;
+    }
+    .show-form {
+        width: 90%;
+        height: 90%;
+        gap: 0px;
+    }
+    .show-form input {
+        width: 250px !important;
+        font-size: 22px !important;
+    }
+    .show-form h1:first-child {
+        font-size: 35px !important;
+    }
+    .show-input {
+        gap:15px !important;
+    }
+    .show-form .show-form-button {
+        gap: 12px;
+    }
+    .show-form .show-form-button button {
+        padding: 5px 10px;
+    }
+}
